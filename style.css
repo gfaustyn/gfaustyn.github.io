@@ -1,3 +1,4 @@
+/* dog main header image*/
 .mia{
     border-radius:60%;
     border: solid;
@@ -6,31 +7,38 @@
     border:dotted;
     border-color:#00fa9a;
     text-align: center;
-    margin: 0 43%;
+    margin: 0 49%;
 }
-.name{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: palevioletred;
-    text-align: center;
-    background-color: white;
-    background: 50%;
-   
+/* header banner*/
+.main-banner {
+    width: 50%;
+    height: auto;
+    align-content: center;
+    margin: 0 29%;
+  }
+/* navigation menu */
+.nav-item{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    margin: 0 12em;
+    justify-content: space-between;
+    background-color: grey ;
+    
 }
-nav li a {
-    /* padding: 0 10%; */
-    /* text-align: left; */
-    color: purple;
+
+.nav li a{
+    /* padding:0,10; */
+    color: green;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* height: 5px; */
-    background-color: white;
-    margin: 6px 0;
-    display: inline;
-    display: block;
-    width: 60px;
+    background-color: grey;
+    padding: 8px 8px;
+    display: inline-block;
+
   }
 
-nav li a:hover{
-    background-color: #555;
+.nav li a:hover{
+   background-color: #555;
     color: white;
 }
 .products{
@@ -43,19 +51,16 @@ nav li a:hover{
 }
 .items{
  display: flex;  
- 
-}
+ }
 .home-decor, .birthday {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     flex: 50%;
-    align-items: center;
-    justify-content: center; 
+    flex-wrap: wrap;
     border: solid;
     border-color: salmon;
     text-align: center;
+    width: 29%;
    }
-
-
-.header{
-    opacity: 10%;
 }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
