@@ -1,18 +1,17 @@
-/* dog main header image*/
+/* dog main header image */
 .mia{
     border-radius:60%;
     border: solid;
     height: 40%;
-    width: auto%;
+    width: auto;
     border:dotted;
     border-color:#00fa9a;
      margin-right: auto; 
      margin-left:auto;
      margin-top: 1em;
-    display: block;
-     
-}
-/* header banner*/
+    display: block;}
+
+    /* header banner*/
 .main-banner {
     width: 40%;
     height: auto;
@@ -23,45 +22,98 @@
      display: block;
   }
   .navbar-collapse{
-    background-color: pink;
-
-  }
+    background-color:linear-gradient(#A9F1DF, #FFBBBB);
+ }
   .navbar-collapse{
-      background-color: pink;
+      background-color:linear-gradient(#A9F1DF, #FFBBBB);
   }
   .navbar-brand{
-background-color: pink;
+    background-color: linear-gradient(#A9F1DF, #FFBBBB);
   }
   
 .bg-light{
-background-color: pink !important;
+background: linear-gradient(#A9F1DF, #FFBBBB);
+  } 
+.navbar-nav, .navbar-brand{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ flex: space-between;
+}
+
+
+.description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px violet;
+    flex: wrap;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .mySlides {
+    display: none;
+  }
+  
+  .container {
+    position: relative;
   }
 
-.banner-layout {
-    align-content: center;
-    display: inline-block;
-}
-}
-.products{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: mediumseagreen;
-    text-align: center;
-    background-color: white;
-    background: 50%;
+  .cursor {
+    cursor: pointer;
+  }
 
+  .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
-.items{
- display: flex;  
- }
-.home-decor, .birthday {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    flex: 50%;
-    flex-wrap: wrap;
-    border: solid;
-    border-color: salmon;
-    text-align: center;
-    width: 29%;
-   }
-}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  .active,
+.demo:hover {
+  opacity: 1;
+}

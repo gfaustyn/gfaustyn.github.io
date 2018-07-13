@@ -1,0 +1,77 @@
+
+<!-- saved from url=(0060)file:///Users/gailfaustyn/Desktop/Final%20Project/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+ <link rel="stylesheet" type="text/css" href="./index_files/style.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">  -->
+ <script href="javscript.js"> </script>
+ 
+</head>
+
+<body background="./index_files/background.jpg">
+
+    <!---this is my nav bar-->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="file:///Users/gailfaustyn/Desktop/Final%20Project/index.html#">Mia Oh My!</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="file:///Users/gailfaustyn/Desktop/Final%20Project/index.html#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="file:///Users/gailfaustyn/Desktop/Final%20Project/index.html#">Meet Mia!</a>
+                        <a class="nav-item nav-link" href="file:///Users/gailfaustyn/Desktop/Final%20Project/index.html#">Sign Up</a>
+
+                      </div>
+                    </div>
+                  </nav>
+    
+<header>
+<div class="banner-layout">
+<img src="./index_files/MiaOhMy.gif" class="main-banner">
+</div>
+<div>
+<img src="./index_files/mia2.jpeg" class="mia" alt="mainimage">
+</div>
+
+<div class="description">
+    <p>Is your life lacking color? Need something to spice up your birthday party? Are your walls looking empty? Mia Oh My is your one-stop shop for birthday party decorations and fun modern art for your home!</p>   
+</div>
+
+</header>
+
+
+
+ 
+<div class="slideshow-container">
+   <div class="row">
+   <div class="column">
+ <img src="./index_files/card1.jpg" class="valentines" alt="valentines day cards" onclick="openImg(this);">
+   </div>
+                  <div class="column">
+                    <img src="./index_files/card2.jpg" class"balloon"="" alt="balloon" onclick="openImg(this);">
+                  </div>
+                  <div class="column">
+                    <img src="./index_files/card3.jpg" class="love" alt="birthday card" onclick="openImg(this);">
+                  </div>
+                  <div class="column">
+                    <img src="./index_files/painting1.jpg" class="home" alt="painting of home" onclick="openImg(this);">
+                  </div>
+                </div>
+                
+                <!-- The expanding image container -->
+                <div class="container">
+                  <!-- Close the image -->
+                  <span onclick="this.parentElement.style.display=&#39;none&#39;" class="closebtn">�</span>
+                
+                  <!-- Expanded image -->
+                  <img id="expandedImg" style="width:100%">
+                
+                  <!-- Image text -->
+                  <div id="imgtext"></div>
+                </div>       
+
+
+</div>
+</body>
+</html>
