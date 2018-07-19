@@ -21,23 +21,6 @@
      text-align: center;
      display: block;
   }
-  .navbar-collapse{
-    background-color:linear-gradient(#A9F1DF, #FFBBBB);
- }
-  .navbar-collapse{
-      background-color:linear-gradient(#A9F1DF, #FFBBBB);
-  }
-  .navbar-brand{
-    background-color: linear-gradient(#A9F1DF, #FFBBBB);
-  }
-.bg-light{
-background: linear-gradient(#A9F1DF);
-  } 
-.navbar-nav, .navbar-brand{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- flex: space-between;
-}
-
 
 .description{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -45,8 +28,13 @@ background: linear-gradient(#A9F1DF);
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px violet;
     flex: wrap;
+    padding-bottom: 20px;
+  
 }
+.navbar-brand{
+  
 
+}
 * {
     box-sizing: border-box;
   }
@@ -70,9 +58,9 @@ background: linear-gradient(#A9F1DF);
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: bla;
+  color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -103,11 +91,9 @@ background: linear-gradient(#A9F1DF);
     padding: 2px 16px;
     color: white;
     border: white;
-   
-  }
-  .row {
+   }
+   .row {
     content: "";
-    /* display: table; */
     clear: both;
     align-self: center;
   }
@@ -118,7 +104,7 @@ background: linear-gradient(#A9F1DF);
   .demo {
     opacity: 0.6;
   }
-  .active,
+ .active,
 .demo:hover {
   opacity: 1;
 }
