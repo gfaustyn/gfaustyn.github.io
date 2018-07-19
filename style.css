@@ -123,3 +123,10 @@ background: linear-gradient(#A9F1DF);
 .demo:hover {
   opacity: 1;
 }
+@media screen only and (min-device-width:800px) {
+  .img {
+    width:1000px;
+    height:auto;
+    text-align:center;
+  }
+}
