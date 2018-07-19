@@ -30,7 +30,6 @@
   .navbar-brand{
     background-color: linear-gradient(#A9F1DF, #FFBBBB);
   }
-  
 .bg-light{
 background: linear-gradient(#A9F1DF);
   } 
@@ -122,11 +121,4 @@ background: linear-gradient(#A9F1DF);
   .active,
 .demo:hover {
   opacity: 1;
-}
-@media screen only and (min-device-width:800px) {
-  .img {
-    width:1000px;
-    height:auto;
-    text-align:center;
-  }
 }
