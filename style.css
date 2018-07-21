@@ -19,7 +19,7 @@
   height: auto;
    margin-right: auto; 
    margin-left: auto;
-   margin-top: 1em;
+   /* margin-top: 1em; */
    display: block;
    padding-bottom: 8em;
    
@@ -37,14 +37,41 @@
       background-color: pink;
       
        }
- 
-  
 
+    .navbar.navbar-expand-lg.navbar-light.bg-light{
+      background-color:lavender!important;
+      }
+    .navbar-collapse{
+        background-color: lavender;
+    }
+    .navbar-nav.nav-link:hover{
+      color: pink;
+    }
+    .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+      color:pink;
+    }
+    .active>.nav-link{
+      color: darkviolet;
+    }
+    .navbar-brand{ 
+    background-color: lavender;
+      }
+      
+   
+      .navbar-brand {
+        background-color: lavender;
+      }
 
-.navbar-brand{
-  
-
-}
+    .navbar-toggler-icon{
+      background-color: lavender!important;
+    }
+    .nav-link{
+      color: darkviolet;
+    }
+    .nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+      background-color: lavender;
+    }
+    
 * {
     box-sizing: border-box;
     
@@ -98,6 +125,7 @@
     text-shadow: 1px 1px 2px black;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkmagenta;
     background-color: pink;
      padding: 2px 30px ; 
     color: white;
@@ -126,5 +154,7 @@
  background: linear-gradient( #A9F1DF, #FFBBBB);
  background-size: cover;
  background-size: contain;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-color; white;
+
 }
