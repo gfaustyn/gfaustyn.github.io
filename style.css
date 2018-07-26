@@ -2,7 +2,7 @@
 .mia{
     border-radius:60%;
     border: solid;
-    height: 50%;
+    height: 40%;
     width: auto;
     border:dotted;
     border-color:#00fa9a;
@@ -15,16 +15,14 @@
  }
      /* header banner*/
  .main-banner {
-  width: 60%;
+  width: 50%;
   height: auto;
    margin-right: auto; 
    margin-left: auto;
-   /* margin-top: 1em; */
    display: block;
    padding-bottom: 8em;
-   
-}
-  .description{
+   }
+.description{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: white;
       text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkmagenta;
@@ -35,13 +33,13 @@
       text-align: center;
        position: relative; 
       background-color: pink;
-      
-       }
+      }
 
-    .navbar.navbar-expand-lg.navbar-light.bg-light{
+.navbar.navbar-expand-lg.navbar-light.bg-light{
       background-color:lavender!important;
       }
-    .navbar-collapse{
+ 
+.navbar-collapse{
         background-color: lavender;
     }
     .navbar-nav.nav-link:hover{
@@ -56,10 +54,8 @@
     .navbar-brand{ 
     background-color: lavender;
       }
-      
-   
-      .navbar-brand {
-        background-color: lavender;
+  .navbar-brand {
+      background-color: lavender;
       }
 
     .navbar-toggler-icon{
@@ -133,7 +129,7 @@
     margin-left: -33.33%;
   margin-right: -33.33%;
 }
-   }
+   
    .row {
     content: "";
     clear: both;
@@ -146,7 +142,7 @@
   .demo {
     opacity: 0.6;
   }
- .active,
+.active,
 .demo:hover {
   opacity: 1;
 }
@@ -156,5 +152,25 @@
  background-size: contain;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  font-color; white;
+}
 
+.meet-mia{
+background-color: lavender;
+background-size: cover;
+background-size: contain;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkmagenta;
+
+}
+.aboutmia{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkmagenta;
+  flex: wrap;
+  padding-bottom: 20px;
+  margin-right: auto; 
+  margin-left: auto;
+  text-align: center;
+   position: relative; 
+  background-color: pink;
 }
